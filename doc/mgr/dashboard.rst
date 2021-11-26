@@ -522,6 +522,8 @@ on appropriate hosts, proceed with the following steps.
       manager host if one Ceph Manager goes down.
 
 #.  Add Prometheus as data source to Grafana `using the Grafana Web UI
+    The data source must be named "Dashboard1"
+    
     <https://grafana.com/docs/grafana/latest/features/datasources/add-a-data-source/>`_.
 
 #.  Install the `vonage-status-panel and grafana-piechart-panel` plugins using::
